@@ -1,0 +1,48 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .game-container {
+    margin: 30px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.image {
+  width: 20%;
+}
+
+.button {
+  background-color: #f9d423;
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  border-style: none;
+  color: #a35200;
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+.result {
+  padding: 20px;
+}
